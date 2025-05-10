@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024CB1A32DCFD933009B155B /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 024CB1A22DCFD92A009B155B /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024CB17A2DCFD6A9009B155B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024CB1642DCFD6A8009B155B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024CB16B2DCFD6A8009B155B;
+			remoteInfo = TransistorListor;
+		};
+		024CB1842DCFD6A9009B155B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024CB1642DCFD6A8009B155B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024CB16B2DCFD6A8009B155B;
+			remoteInfo = TransistorListor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024CB16C2DCFD6A8009B155B /* TransistorListor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransistorListor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024CB1792DCFD6A9009B155B /* TransistorListorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransistorListorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024CB1832DCFD6A9009B155B /* TransistorListorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransistorListorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024CB1A22DCFD92A009B155B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		024CB16E2DCFD6A8009B155B /* TransistorListor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TransistorListor;
+			sourceTree = "<group>";
+		};
+		024CB17C2DCFD6A9009B155B /* TransistorListorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TransistorListorTests;
+			sourceTree = "<group>";
+		};
+		024CB1862DCFD6A9009B155B /* TransistorListorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TransistorListorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024CB1692DCFD6A8009B155B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB1762DCFD6A9009B155B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB1802DCFD6A9009B155B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024CB1632DCFD6A8009B155B = {
+			isa = PBXGroup;
+			children = (
+				024CB1A22DCFD92A009B155B /* readme.md */,
+				024CB16E2DCFD6A8009B155B /* TransistorListor */,
+				024CB17C2DCFD6A9009B155B /* TransistorListorTests */,
+				024CB1862DCFD6A9009B155B /* TransistorListorUITests */,
+				024CB16D2DCFD6A8009B155B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		024CB16D2DCFD6A8009B155B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024CB16C2DCFD6A8009B155B /* TransistorListor.app */,
+				024CB1792DCFD6A9009B155B /* TransistorListorTests.xctest */,
+				024CB1832DCFD6A9009B155B /* TransistorListorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024CB16B2DCFD6A8009B155B /* TransistorListor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024CB18D2DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListor" */;
+			buildPhases = (
+				024CB1682DCFD6A8009B155B /* Sources */,
+				024CB1692DCFD6A8009B155B /* Frameworks */,
+				024CB16A2DCFD6A8009B155B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				024CB16E2DCFD6A8009B155B /* TransistorListor */,
+			);
+			name = TransistorListor;
+			packageProductDependencies = (
+			);
+			productName = TransistorListor;
+			productReference = 024CB16C2DCFD6A8009B155B /* TransistorListor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024CB1782DCFD6A9009B155B /* TransistorListorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024CB1902DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListorTests" */;
+			buildPhases = (
+				024CB1752DCFD6A9009B155B /* Sources */,
+				024CB1762DCFD6A9009B155B /* Frameworks */,
+				024CB1772DCFD6A9009B155B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024CB17B2DCFD6A9009B155B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				024CB17C2DCFD6A9009B155B /* TransistorListorTests */,
+			);
+			name = TransistorListorTests;
+			packageProductDependencies = (
+			);
+			productName = TransistorListorTests;
+			productReference = 024CB1792DCFD6A9009B155B /* TransistorListorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024CB1822DCFD6A9009B155B /* TransistorListorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024CB1932DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListorUITests" */;
+			buildPhases = (
+				024CB17F2DCFD6A9009B155B /* Sources */,
+				024CB1802DCFD6A9009B155B /* Frameworks */,
+				024CB1812DCFD6A9009B155B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024CB1852DCFD6A9009B155B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				024CB1862DCFD6A9009B155B /* TransistorListorUITests */,
+			);
+			name = TransistorListorUITests;
+			packageProductDependencies = (
+			);
+			productName = TransistorListorUITests;
+			productReference = 024CB1832DCFD6A9009B155B /* TransistorListorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024CB1642DCFD6A8009B155B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					024CB16B2DCFD6A8009B155B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					024CB1782DCFD6A9009B155B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 024CB16B2DCFD6A8009B155B;
+					};
+					024CB1822DCFD6A9009B155B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 024CB16B2DCFD6A8009B155B;
+					};
+				};
+			};
+			buildConfigurationList = 024CB1672DCFD6A8009B155B /* Build configuration list for PBXProject "TransistorListor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024CB1632DCFD6A8009B155B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 024CB16D2DCFD6A8009B155B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024CB16B2DCFD6A8009B155B /* TransistorListor */,
+				024CB1782DCFD6A9009B155B /* TransistorListorTests */,
+				024CB1822DCFD6A9009B155B /* TransistorListorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024CB16A2DCFD6A8009B155B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024CB1A32DCFD933009B155B /* readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB1772DCFD6A9009B155B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB1812DCFD6A9009B155B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024CB1682DCFD6A8009B155B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB1752DCFD6A9009B155B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024CB17F2DCFD6A9009B155B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024CB17B2DCFD6A9009B155B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024CB16B2DCFD6A8009B155B /* TransistorListor */;
+			targetProxy = 024CB17A2DCFD6A9009B155B /* PBXContainerItemProxy */;
+		};
+		024CB1852DCFD6A9009B155B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024CB16B2DCFD6A8009B155B /* TransistorListor */;
+			targetProxy = 024CB1842DCFD6A9009B155B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		024CB18B2DCFD6A9009B155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024CB18C2DCFD6A9009B155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024CB18E2DCFD6A9009B155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024CB18F2DCFD6A9009B155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024CB1912DCFD6A9009B155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransistorListor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TransistorListor";
+			};
+			name = Debug;
+		};
+		024CB1922DCFD6A9009B155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransistorListor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TransistorListor";
+			};
+			name = Release;
+		};
+		024CB1942DCFD6A9009B155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransistorListor;
+			};
+			name = Debug;
+		};
+		024CB1952DCFD6A9009B155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98FUDF52EK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinygdevelopment.TransistorListorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransistorListor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024CB1672DCFD6A8009B155B /* Build configuration list for PBXProject "TransistorListor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024CB18B2DCFD6A9009B155B /* Debug */,
+				024CB18C2DCFD6A9009B155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024CB18D2DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024CB18E2DCFD6A9009B155B /* Debug */,
+				024CB18F2DCFD6A9009B155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024CB1902DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024CB1912DCFD6A9009B155B /* Debug */,
+				024CB1922DCFD6A9009B155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024CB1932DCFD6A9009B155B /* Build configuration list for PBXNativeTarget "TransistorListorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024CB1942DCFD6A9009B155B /* Debug */,
+				024CB1952DCFD6A9009B155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024CB1642DCFD6A8009B155B /* Project object */;
+}
