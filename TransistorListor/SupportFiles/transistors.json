@@ -1,0 +1,231 @@
+[
+    {
+        "part_number": "2N2222",
+        "BJT": {
+            "bjt_doping": "NPN"
+        },
+        "ratings": {
+            "max_voltage": 40.0,
+            "max_current": 0.6
+        },
+        "use": "General-purpose small-signal transistor for amplification and switching",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "2N3906",
+        "BJT": {
+            "bjt_doping": "PNP"
+        },
+        "ratings": {
+            "max_voltage": 40.0,
+            "max_current": 0.2
+        },
+        "use": "Small-signal PNP for low-power amplification and switching",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "BC547",
+        "BJT": {
+            "bjt_doping": "NPN"
+        },
+        "ratings": {
+            "max_voltage": 45.0,
+            "max_current": 0.1
+        },
+        "use": "Small-signal transistor for audio and general-purpose circuits",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "TIP31C",
+        "BJT": {
+            "bjt_doping": "NPN"
+        },
+        "ratings": {
+            "max_voltage": 100.0,
+            "max_current": 3.0
+        },
+        "use": "Power transistor for medium-power switching and amplification",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "TIP42C",
+        "BJT": {
+            "bjt_doping": "PNP"
+        },
+        "ratings": {
+            "max_voltage": 100.0,
+            "max_current": 6.0
+        },
+        "use": "Complementary PNP power transistor for high-current applications",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "IRF540N",
+        "MOSFET": {
+            "mosfet_doping": "NMOS"
+        },
+        "ratings": {
+            "max_voltage": 100.0,
+            "max_current": 33.0
+        },
+        "use": "Power MOSFET for switching in motor control and power supplies",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "IRF9540N",
+        "MOSFET": {
+            "mosfet_doping": "PMOS"
+        },
+        "ratings": {
+            "max_voltage": 100.0,
+            "max_current": 23.0
+        },
+        "use": "P-channel MOSFET for power management and load switching",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "BS170",
+        "MOSFET": {
+            "mosfet_doping": "NMOS"
+        },
+        "ratings": {
+            "max_voltage": 60.0,
+            "max_current": 0.5
+        },
+        "use": "Small-signal MOSFET for low-power switching",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "IRFZ44N",
+        "MOSFET": {
+            "mosfet_doping": "NMOS"
+        },
+        "ratings": {
+            "max_voltage": 55.0,
+            "max_current": 49.0
+        },
+        "use": "High-current MOSFET for DC-DC converters and motor drivers",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "SI2301",
+        "MOSFET": {
+            "mosfet_doping": "PMOS"
+        },
+        "ratings": {
+            "max_voltage": 20.0,
+            "max_current": 2.3
+        },
+        "use": "Low-voltage P-channel MOSFET for portable devices",
+        "package": "SOT-23"
+    },
+    {
+        "part_number": "FQP27P06",
+        "MOSFET": {
+            "mosfet_doping": "PMOS"
+        },
+        "ratings": {
+            "max_voltage": 60.0,
+            "max_current": 27.0
+        },
+        "use": "P-channel MOSFET for power switching applications",
+        "package": "TO-220"
+    },
+    {
+        "part_number": "2N3819",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 25.0,
+            "max_current": 0.05
+        },
+        "use": "Low-noise amplifier for audio and RF applications",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "J112",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 35.0,
+            "max_current": 0.05
+        },
+        "use": "Chopper and switching applications",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "BF256B",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 30.0,
+            "max_current": 0.013
+        },
+        "use": "RF amplifier and mixer circuits",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "2SK170",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 40.0,
+            "max_current": 0.02
+        },
+        "use": "High-impedance preamplifier for audio equipment",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "MPF102",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 25.0,
+            "max_current": 0.02
+        },
+        "use": "General-purpose RF and audio amplifier",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "J177",
+        "JFET": {
+            "jfet_doping": "P-channel"
+        },
+        "ratings": {
+            "max_voltage": 30.0,
+            "max_current": 0.02
+        },
+        "use": "Analog switch in low-power circuits",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "2SJ103",
+        "JFET": {
+            "jfet_doping": "P-channel"
+        },
+        "ratings": {
+            "max_voltage": 50.0,
+            "max_current": 0.015
+        },
+        "use": "Voltage-controlled resistor in audio circuits",
+        "package": "TO-92"
+    },
+    {
+        "part_number": "SST201",
+        "JFET": {
+            "jfet_doping": "N-channel"
+        },
+        "ratings": {
+            "max_voltage": 40.0,
+            "max_current": 0.01
+        },
+        "use": "Precision amplifier for instrumentation",
+        "package": "SOT-23"
+    }
+]
+ 

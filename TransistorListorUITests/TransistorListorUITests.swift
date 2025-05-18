@@ -1,8 +1,7 @@
+// TransistorListorUITests.swift
+// TransistorListor
 //
-//  TransistorListorUITests.swift
-//  TransistorListorUITests
-//
-//  Created by Luther Stanton on 5/10/25.
+// Copyright © 2025 Luther Stanton. All rights reserved.
 //
 
 import XCTest

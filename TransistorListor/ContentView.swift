@@ -1,8 +1,7 @@
+// ContentView.swift
+// TransistorListor
 //
-//  ContentView.swift
-//  TransistorListor
-//
-//  Created by Luther Stanton on 5/10/25.
+// Copyright © 2025 Luther Stanton. All rights reserved.
 //
 
 import SwiftUI
