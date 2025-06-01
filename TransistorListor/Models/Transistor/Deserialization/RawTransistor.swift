@@ -27,12 +27,10 @@ struct DopingWrapper<T: RawRepresentable & Decodable & Equatable>: Equatable, De
         } else if T.self == JFETDoping.self, let doping = try container.decodeIfPresent(T.self, forKey: .jfet) {
             self.doping = doping
         } else {
-            throw DecodingError.dataCorrupted(
-                DecodingError.Context(
-                    codingPath: container.codingPath,
-                    debugDescription: "No valid doping field found for \(T.self)"
-                )
-            )
+            throw TransistorListorErrorDetail(errorCode: TransistorListorErrorCode.badDataFormatDopingWrapper,
+                                              errorDescription: TransistorListorErrorCode.badDataFormatDopingWrapper.description,
+                                              failureReason: TransistorListorErrorFailureReason.badDataFormatDopingWrapper.rawValue,
+                                              recoverySuggestion: TransistorListorRecoverySuggestion.badDataFormatDopingWrapper.rawValue)
         }
     }
 }

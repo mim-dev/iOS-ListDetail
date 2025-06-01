@@ -20,13 +20,17 @@ A model collection is used for representing domain constructs such as the variou
 
 A services layer is implemented to handle the (simulated) retrieval and parsing of JSON formatted transistor data. 
 
+### Error Handling and Reporting
+
+<< TBD >>
+
 ### Testing
 
 *SwiftTest* is favored for unit testing of application logic.
 
-#### Dependency Injection
+### Dependency Injection
 
-For testability, dependency injection is favored thereby allowing mocks to be supplied for various unit testing scenarios.  The style of dependency injection selected is simple supplying of dependencies via class / struct initializers.  
+For testability dependency injection is favored thereby allowing mocks to be supplied for various unit testing scenarios.  Additional dependency injection (IoC) provides enhanced configuration and improved modularity of the application as well.  The style of dependency injection selected is simple supplying of dependencies via class / struct initializers.  
 
 ## Models
 
