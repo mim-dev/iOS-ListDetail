@@ -55,7 +55,7 @@ struct RawTransistor: Decodable, Equatable {
         case jfetDoping = "JFET"
     }
     
-    func toTransistor() -> Transistor? {
+    func parse() throws -> Transistor {
         
         if let bjtDoping = bjtDoping {
             return BJT(ratings: ratings,
@@ -81,6 +81,6 @@ struct RawTransistor: Decodable, Equatable {
                         doping: jfetDoping.doping)
         }
         
-        return nil
+        throw TransistorListorError.transistorParseError
     }
 }
